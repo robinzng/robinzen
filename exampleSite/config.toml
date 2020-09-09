@@ -21,10 +21,10 @@ enableEmoji = true
     url = "/about"
     weight = 1
   [[menu.main]]
+    hasChildren = true
     name = "Projects"
     url = "/projects"
     weight = 2
-    haschild = TRUE
   [[menu.main]]
     name = "Animations"
     url = "/animations"
