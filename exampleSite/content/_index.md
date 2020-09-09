@@ -15,8 +15,8 @@ Hello! I'm Robin, a data scientist currently located in Philly. I graduated from
 
 ## Personal Projects
 
-* *[Diplomatic Dynamics of International Treaty Negotiations]*(https://journals.calstate.edu/pump/article/view/1920/2044), Co-Author
-* [Where I'm Really From](whereimreallyfrom.com), Co-Founder
+* Co-authored [Diplomatic Dynamics of International Treaty Negotiations](https://journals.calstate.edu/pump/article/view/1920/2044)
+* Co-founded [Where I'm Really From: An Online Archive of Asian-American Stories](whereimreallyfrom.com)
 
 ## Let's Connect
 
