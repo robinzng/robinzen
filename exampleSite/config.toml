@@ -9,8 +9,8 @@ enableEmoji = true
   description = "Data-driven, mission-driven, "
   favicon = "favicon.ico"
   [params.footer]
-    text = "Powered by Hugo"
-    url = "https://github.com/ojroques/hugo-researcher"
+    text = "Contact me!"
+    url = "mailto:robinzeng1@gmail.com"
 
 [permalinks]
   "/" = "/:filename"
