@@ -2,4 +2,4 @@
 title = "Blog"
 +++
 
-[Post 1](robinzen.netlify.app/blog-post-1)
+[Post 1](/blog-post-1)
