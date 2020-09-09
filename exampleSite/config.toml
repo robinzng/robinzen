@@ -22,13 +22,9 @@ enableEmoji = true
     weight = 1
   [[menu.main]]
     hasChildren = true
-    name = "Projects"
-    url = "/projects"
+    name = "Blog"
+    url = "/blog"
     weight = 2
-  [[menu.main]]
-    name = "Animations"
-    url = "/animations"
-    parent = "Projects"
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
