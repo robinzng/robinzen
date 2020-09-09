@@ -9,8 +9,12 @@ enableEmoji = true
   description = "Data-driven, mission-driven, "
   favicon = "favicon.ico"
   [params.footer]
-    text = "Contact me!"
+    text = "Email"
     url = "mailto:robinzeng1@gmail.com"
+    text = "LinkedIn"
+    url = "https://www.linkedin.com/in/robinzeng1/"
+    text = "GitHub"
+    url = "https://github.com/robinzng"
 
 [permalinks]
   "/" = "/:filename"
