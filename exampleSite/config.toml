@@ -1,15 +1,15 @@
-title = "Researcher"
-baseURL = "https://example.com"
+title = "Robin Zeng"
+baseURL = "https://www.robinzen.com"
 theme = "researcher"
 disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
 enableEmoji = true
 
 [params]
-  author = "Olivier Roques"
-  description = "A simple monospaced resume theme for Hugo."
+  author = "Robin Zeng"
+  description = "Data-driven, mission-driven, "
   favicon = "favicon.ico"
   [params.footer]
-    text = "By Olivier Roques"
+    text = "Powered by Hugo"
     url = "https://github.com/ojroques/hugo-researcher"
 
 [permalinks]
@@ -17,12 +17,12 @@ enableEmoji = true
 
 [menu]
   [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 1
-  [[menu.main]]
     name = "Resume"
     url = "/resume.pdf"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
     weight = 2
   [[menu.main]]
     name = "Contact"
