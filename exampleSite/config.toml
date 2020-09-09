@@ -17,11 +17,10 @@ enableEmoji = true
 
 [menu]
   [[menu.main]]
-    name = "About"
-    url = "/about"
+    name = "Resume"
+    url = "/resume.pdf"
     weight = 1
   [[menu.main]]
-    hasChildren = true
     name = "Blog"
     url = "/blog"
     weight = 2
