@@ -2,7 +2,7 @@
 title = "Robin Zeng"
 +++
 
-{{< figure class="avatar" src="/avatar.jpg" >}}
+{{< figure class="avatar" src="/avatar.jpeg" >}}
 
 ## About Me
 
