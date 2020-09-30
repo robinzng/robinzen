@@ -7,7 +7,7 @@ enableEmoji = true
 [params]
   author = "Robin Zeng"
   description = "Data-driven, mission-driven, "
-  favicon = "favicon.ico"
+  favicon = "favicon.jpg"
   [params.footer]
     text = "Email me"
     url = "mailto:robinzeng1@gmail.com"
