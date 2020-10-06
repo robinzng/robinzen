@@ -2,4 +2,4 @@
 title = "Blog"
 +++
 
-[Post 1](/blog-post-1)
+[Hello World and How I Got Here](/how-to-build-a-free-website)

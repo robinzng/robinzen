@@ -6,20 +6,21 @@ title = "Robin Zeng"
 
 ### About Me
 
-Hello! I'm Robin, a data scientist currently located in Philly. I graduated from Dartmouth College in June 2019 with a degree in Mathematics. I love hiking, social impact, and hand-drawing animations. 
+Hello! I'm Robin, a data scientist currently located in Philly. I graduated from Dartmouth College in June 2019 with a degree in Mathematics. I love community building, adventure cycling, and hand-drawing animations. 
 
-### Professional Experiences
 
-* Associate Consultant at Mastercard Delivery and Services
-* Investment Analyst at Cambridge Associates
-* Marketing Consultant at Lubin Lawrence
+### About My Website
 
-### Personal Projects
+The current goal of my website (besides [blatant self-promotion](/exampleSite/content/resume.md)) is to spread knowledge. I'll be sharing projects I'm working on and step-by-step guides meant for anybody to be able to follow. The projects will range from the [very creation of this website](#) to how I write math papers on board game strategies. As I continue to build out this site, I might have a better focus for the projects I share, but for now, I hope you enjoy the eclecticism! 
+
+
+### My Other Projects
 
 * Co-authored [*Diplomatic Dynamics of International Treaty Negotiations*](https://journals.calstate.edu/pump/article/view/1920/2044), an epidemiological approach to multi-party negotiations
 * Co-founded [Where I'm Really From](whereimreallyfrom.com), an online archive of Asian-American narratives
 
-### Let's Connect
+
+### Contact Me! 
 
 1. [Email](mailto:robinzeng1@gmail.com)
 2. [LinkedIn](https://www.linkedin.com/in/robinzeng1/)
