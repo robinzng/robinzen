@@ -3,7 +3,7 @@ Title = "Hello World and How I Got Here"
 +++
 
 <details>
-<summary>The hackneyed blog post intro</summary>
+<summary><h2>The hackneyed blog post intro</h2></summary>
 <br>
 Would be cool if this works! 
 </details>
