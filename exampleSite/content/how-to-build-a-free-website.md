@@ -12,7 +12,7 @@ In the process of creating my first website, I read a lot of online guides that 
 2. Suck it up and go with a straight out-of-the-box solution.
    1. I also wasted a lot of time trying to hack out-of-the-box solutions to look the way I wanted them to, but this was inefficient and pretty buggy.
 
-Thankfully, my good friend [Afnan](www.afnan.io), who is a genius at this sort of thing, told me about Hugo Themes. And now I'm here to teach you! 
+Thankfully, my good friend [Afnan](https://www.afnan.io), who is a genius at this sort of thing, told me about Hugo Themes. And now I'm here to teach you! 
 
 This blog post is a how-to guide to free web dev for anybody, even total beginners. Please [reach out](mailto:robinzeng1@gmail.com) if any of the steps are confusing, or if you have suggestions for improvement- I'm always looking to learn and grow!
 
