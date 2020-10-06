@@ -24,26 +24,41 @@ This blog post is a how-to guide to free web dev for anybody, even total beginne
 
 Basically, all you need to create a website are a set of instructions (the code), somewhere to store the code (the repository), and something to execute those instructions (the deployer). You'll also want a domain to make your website available to the world, but that's really the last step. Any website who tells you otherwise is probably written by the kind of person who names a pet they don't even have "Sparkles" and then they buy the pet and it turns out to be a Bruce but now it only responds to Sparkles. 
 
+### What we'll be using
+
 In this case, [Hugo themes](https://themes.gohugo.io/) will provide a (very robust) skeleton for our code. Hugo themes are pre-built site themes that are incredibly customizable and relatively low maintenance. If you're happy with a theme as-is, the only language you need is Markdown. If you'd like to alter the skeleton, you just need some basic understanding of HTML and CSS and/or the ability to Google, copy-and-paste, and debug.
 
 For editing code, I recommend downloading [Visual Studio Code](https://code.visualstudio.com/), which makes code a lot more readable than unformatted Notepad (which, to be fair, works). Not a necessity, but free and incredibly helpful.
 
-The repository I (and most people) use is [Github](https://github.com/). Not much to say there other than, it's good and it works. You should use it. I also recommend downloading the [desktop app](https://desktop.github.com/) for significant quality of life improvements.
+The repository I (and most people) use is [Github](https://github.com/). Not much to say there other than, it's good and it works. You should use it. I also recommend downloading the [desktop app](https://desktop.github.com/) for significant quality of life improvements. If you're new to the Git Desktop app, you can basically edit and save files locally on your computer, then commit and push the changes online whenever.
 
 Finally, [Netlify](https://www.netlify.com/) is a solid deployer. It works seamlessly with Github, provides clear error messages that make debugging a breeze, and will easily link to whatever domain you do end up buying. Sign up with your Github account and you're good to go! 
 
-
 ### Setting everything up
 
-First, sign up for [Github](https://github.com/) and [Netlify](https://www.netlify.com/) accounts, and unless you like to suffer, download [Visual Studio Code](https://code.visualstudio.com/) and the [Github desktop app](https://desktop.github.com/).  
+First, you need to get your accounts and services set up. Sign up for a [Github](https://github.com/) account and use that to sign up for [Netlify](https://www.netlify.com/). Unless you like to suffer, you should also download [Visual Studio Code](https://code.visualstudio.com/) and the [Github desktop app](https://desktop.github.com/).
 
-Next is the fun part: choose your favorite theme from [Hugo](https://themes.gohugo.io/). I'm using ["Researcher" by Olivier Roques](https://themes.gohugo.io/hugo-researcher/), but all of their free options are fantastic. One piece of advice when choosing your own theme: prioritize features, not aesthetics. Coding in a searchbar is orders of magnitude harder than changing the theme color from red to blue.  
+Next is the fun part: choose your favorite theme from [Hugo](https://themes.gohugo.io/). I'm using ["Researcher" by Olivier Roques](https://themes.gohugo.io/hugo-researcher/), but all of their free options are fantastic. One piece of advice when choosing your own theme: prioritize features, not aesthetics. Coding in a searchbar is orders of magnitude harder than changing the theme color from red to blue. Know which features are mandatory for your site to function fluidly, and look for those in the site demos.
 
+### Acquiring the theme
 
+Once you've found the perfect theme, it's time to move the code onto your desktop so that you can edit it. You do so by clicking "Download," which will take you to the Github repository of the theme's code. Fork it (copy it) over to a personal repository. Then, click on the green Download Code button to open the repository with Github Desktop. You can alter the Local Path to store the folder wherever you want on your computer. After you've cloned the repository, make sure you select that you're using the fork for your own purposes, and *not* to contribute to the parent repository! You definitely don't want to be making edits to the original theme. You should now be able to see the theme repository in your computer's file explorer. You've acquired the theme! 
 
+### Deploying for the first time
 
+To deploy your site, you'll need to first check in your theme repository to see if you have a "netlify.toml" file. You should see it as soon as you open the theme folder (i.e. it shouldn't be in any subfolder). If you don't have it, feel free to download the [netlify.toml](https://github.com/robinzng/robinzen/blob/master/netlify.toml) file that I have in my Git. Make sure to commit to master and push changes whenever you make changes within your theme folder so that your local version is synced with your online repository! 
 
-### 
+Sign into Netlify and click on "New site from Git." Select your repository from Github. On the "Build options, and deploy!" page, enter the build command as "hugo server". This is critical, as the build command is how Netlify is able to correctly execute your code. 
+
+Your site should now be live! Click on the link that netlify provides (should be in the form of "https:// something - something - something .netlify.app") and you'll be able to see the unmodified theme. 
+
+### Editing the theme
+
+Now that everything's been linked together, open your theme folder in Visual Studio Code to start personalizing it. 
+
+There's a lot of paths you can take from here, but I love a path of least resistance, so that's the path that I will teach you. 
+
+First, you should understand the setup of the theme folder. 
 
 
 
