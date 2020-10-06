@@ -2,6 +2,12 @@
 Title = "Hello World and How I Got Here"
 +++
 
+<details>
+<summary>The hackneyed blog post intro</summary>
+<br>
+Would be cool if this works! 
+</details>
+
 ### Hello world! 
 [Skip the cliched, overly long blog post intro](#how-to-build-a-free-website-for-total-beginners)
 
