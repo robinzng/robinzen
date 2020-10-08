@@ -6,9 +6,12 @@ Title = "Hello World and How I Got Here"
 If you're reading this, that means I've successfully set up my free personal website!
 
 In the process of creating my first website, I read a lot of online guides that basically made it seem like my only two options were
+
+<ul>
    1. Pay for a service to make a custom website for me, or
    2. Suck it up and go with a straight out-of-the-box solution.
       1. I also wasted a lot of time trying to hack out-of-the-box solutions to look the way I wanted them to, but this was inefficient and pretty buggy.
+</ul>
 
 Thankfully, my good friend [Afnan](https://www.afnan.io), who is a genius at this sort of thing, told me about Hugo Themes. And now I'm here to teach you! 
 
@@ -16,8 +19,8 @@ This blog post is a guide to free web dev for everybody, even total beginners. P
 
 
 ### How to build a free website (for total beginners)
-1. [A very high-level summary](/a-very-high-level-summary)
-2. [Setting everything up](/setting-everything-up)
+1. [A very high-level summary](/#a-very-high-level-summary)
+2. [Setting everything up](/#setting-everything-up)
 3. [The straight-to-the-point clickthrough guide](hahahaha)
 
 ### A very high-level summary
