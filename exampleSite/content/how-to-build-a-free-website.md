@@ -1,34 +1,33 @@
 +++
 Title = "Hello World and How I Got Here"
 +++
+### Hello World!
 
-<details>
-<summary><h2>The hackneyed blog post intro</h2></summary>
-<br>
-Would be cool if this works! 
-</details>
-
-### Hello world! 
-[Skip the cliched, overly long blog post intro](#how-to-build-a-free-website-for-total-beginners)
-
-If you're reading this, that means I've successfully set up my free personal website! 
+If you're reading this, that means I've successfully set up my free personal website!
 
 In the process of creating my first website, I read a lot of online guides that basically made it seem like my only two options were
-1. Pay for a service to make a custom website for me, or
-2. Suck it up and go with a straight out-of-the-box solution.
-   1. I also wasted a lot of time trying to hack out-of-the-box solutions to look the way I wanted them to, but this was inefficient and pretty buggy.
+   1. Pay for a service to make a custom website for me, or
+   2. Suck it up and go with a straight out-of-the-box solution.
+      1. I also wasted a lot of time trying to hack out-of-the-box solutions to look the way I wanted them to, but this was inefficient and pretty buggy.
 
 Thankfully, my good friend [Afnan](https://www.afnan.io), who is a genius at this sort of thing, told me about Hugo Themes. And now I'm here to teach you! 
 
-This blog post is a how-to guide to free web dev for anybody, even total beginners. Please [reach out](mailto:robinzeng1@gmail.com) if any of the steps are confusing, or if you have suggestions for improvement- I'm always looking to learn and grow!
+This blog post is a guide to free web dev for everybody, even total beginners. Please [reach out](mailto:robinzeng1@gmail.com) if any of the steps are confusing, or if you have suggestions for improvement- I'm always looking to learn and grow!
+
 
 ### How to build a free website (for total beginners)
-[1. A very high-level summary](#a-very-high-level-summary)
-[2. Setting everything up](#setting-everything-up)
+1. [A very high-level summary](/a-very-high-level-summary)
+2. [Setting everything up](/setting-everything-up)
+3. [The straight-to-the-point clickthrough guide](hahahaha)
 
 ### A very high-level summary
 
-Basically, all you need to create a website are a set of instructions (the code), somewhere to store the code (the repository), and something to execute those instructions (the deployer). You'll also want a domain to make your website available to the world, but that's really the last step. Any website who tells you otherwise is probably written by the kind of person who names a pet they don't even have "Sparkles" and then they buy the pet and it turns out to be a Bruce but now it only responds to Sparkles. 
+Basically, all you need to create a website are:
+* some set of instructions (the code), 
+* somewhere to store the code (the repository), and 
+* something to execute those instructions (the deployer). 
+
+You'll also want a domain to make your website available to the world, but that's really the last step. Any website who tells you otherwise is probably written by the kind of person who names a pet they don't even have "Sparkles" and then they buy the pet and it turns out to be a Bruce but now it only responds to Sparkles. 
 
 ### What we'll be using
 
@@ -64,8 +63,19 @@ Now that everything's been linked together, open your theme folder in Visual Stu
 
 There's a lot of paths you can take from here, but I love a path of least resistance, so that's the path that I will teach you. 
 
-First, you should understand the setup of the theme folder. 
+What I do is simply make edits to the "exampleSite" folder in the theme. The structure of the example site folder is usually pretty straightforward, so I won't go into too much detail. A few things you should be aware of, however:
+
+* Directly inside the exampleSite folder (NOT in a subfolder) should be a config.toml file. This file tells Netlify what theme to apply to the website. This is also where you can edit the overall organization of your site (e.g. title, menus, headers and footers). 
+
+### Finalizing and publishing
+
+Once you've finalized your website and want the WORLD to see it, you can now buy a domain. I suggest [Google Domains](https://domains.google/) for pretty cheap names and the ability to easily connect to Netlify. The instructions for connecting Netlify to Google Domains can be found [here](https://medium.com/@jacobsowles/how-to-deploy-a-google-domains-site-to-netlify-c62793d8c95e). 
 
 
 
 
+<details>
+<summary><h2>The hackneyed blog post intro</h2></summary>
+<br>
+
+</details>
