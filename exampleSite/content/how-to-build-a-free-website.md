@@ -20,7 +20,7 @@ This blog post is a guide to free web dev for everybody, even total beginners. P
 
 ### How to build a free website (for total beginners)
 1. [A very high-level summary](/#a-very-high-level-summary)
-2. [Setting everything up](/#setting-everything-up)
+2. [What to use and why](/#what-to-use-and-why)
 3. [The straight-to-the-point clickthrough guide](hahahaha)
 
 ### A very high-level summary
@@ -30,13 +30,13 @@ Basically, all you need to create a website are:
 * somewhere to store the code (the repository), and 
 * something to execute those instructions (the deployer). 
 
-You'll also want a domain to make your website available to the world, but that's really the last step. Any website who tells you otherwise is probably written by the kind of person who names a pet they don't even have "Sparkles" and then they buy the pet and it turns out to be a Bruce but now it only responds to Sparkles. 
+You'll also want a domain to make your website available to the world, but that's really the last step. Any website who tells you otherwise is probably written by the kind of person who decides their future pet's name will be "Sparkles," only to get one and find out it's more of a Bruce that now only responds to Sparkles. Names and domains should always come last. 
 
-### What we'll be using
+### What to use and why
 
-In this case, [Hugo themes](https://themes.gohugo.io/) will provide a (very robust) skeleton for our code. Hugo themes are pre-built site themes that are incredibly customizable and relatively low maintenance. If you're happy with a theme as-is, the only language you need is Markdown. If you'd like to alter the skeleton, you just need some basic understanding of HTML and CSS and/or the ability to Google, copy-and-paste, and debug.
+To build the code, we'll be using [Hugo themes](https://themes.gohugo.io/) as a (very robust) skeleton. Hugo themes are pre-built site themes that are incredibly customizable and relatively low maintenance. If you're happy with a theme as-is, the only language you need is Markdown. If you'd like to alter the skeleton, you just need some basic understanding of HTML and CSS and/or the ability to Google, copy-and-paste, and debug.
 
-For editing code, I recommend downloading [Visual Studio Code](https://code.visualstudio.com/), which makes code a lot more readable than unformatted Notepad (which, to be fair, works). Not a necessity, but free and incredibly helpful.
+For editing code, I recommend downloading [Visual Studio Code](https://code.visualstudio.com/), which makes code a lot more readable than Notepad or Github (both of which, to be fair, work). Not a necessity, but free and incredibly helpful.
 
 The repository I (and most people) use is [Github](https://github.com/). Not much to say there other than, it's good and it works. You should use it. I also recommend downloading the [desktop app](https://desktop.github.com/) for significant quality of life improvements. If you're new to the Git Desktop app, you can basically edit and save files locally on your computer, then commit and push the changes online whenever.
 
