@@ -32,7 +32,7 @@ Basically, all you need to create a website are:
 * somewhere to store the code (the repository), and 
 * something to execute those instructions (the deployer). 
 
-You'll also want a domain to make your website available to the world, but that's really the last step. Any website that tells you otherwise is not to be trusted. Domain names, like dissections, should always be done last. 
+You'll also want a domain to make your website available to the world, but that's really the last step. Any website that tells you otherwise is not to be trusted. Domain names, like eulogies, should only be assigned at the end. 
 
 ### What to use and why
 
