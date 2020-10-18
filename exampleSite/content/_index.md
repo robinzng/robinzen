@@ -26,3 +26,14 @@ The current goal of my website (besides [blatant self-promotion](/resume.md)) is
 2. [LinkedIn](https://www.linkedin.com/in/robinzeng1/)
 3. [GitHub](https://github.com/robinzng)
 4. [Youtube](#)
+
+
+<!-- useful code snippets
+
+<details>
+<summary><h2>The hackneyed blog post intro</h2></summary>
+<br>
+
+</details> 
+
+-->
