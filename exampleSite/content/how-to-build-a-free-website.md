@@ -20,8 +20,10 @@ This blog post is a guide to free web dev for everybody, even total beginners. P
 ### How to build a free website (for total beginners)
 1. [A very high-level summary](/#a-very-high-level-summary)
 2. [What to use and why](/#what-to-use-and-why)
-3. [Laying the website foundation](/#laying_the_website_foundation)
-4. 
+3. [The code skeleton](/#the_code_skeleton)
+4. [Deploying the code](/#deploying_the_code)
+5. [Customizing your site](/#customizing_your_site)
+6. [Publishing your site](/#publishing_your_site)
 
 ### A very high-level summary
 
@@ -30,7 +32,7 @@ Basically, all you need to create a website are:
 * somewhere to store the code (the repository), and 
 * something to execute those instructions (the deployer). 
 
-You'll also want a domain to make your website available to the world, but that's really the last step. Any website who tells you otherwise is probably written by the kind of person who decides their future pet's name will be "Sparkles," only to get one and find out it's more of a Bruce that now only responds to Sparkles. Names and domains should always come last. 
+You'll also want a domain to make your website available to the world, but that's really the last step. Any website that tells you otherwise is not to be trusted. Domain names, like dissections, should always be done last. 
 
 ### What to use and why
 
@@ -42,17 +44,13 @@ To store the code, sign up for a [Github](https://github.com/) account. You shou
 
 Finally, [Netlify](https://www.netlify.com/) is a solid deployer. It works seamlessly with Github, provides clear error messages that make debugging a breeze, and will easily link to whatever domain you do end up buying. Use your Github account to sign up and you're good to go! 
 
-### Laying the website foundation
+### The code skeleton
 
+As mentioned earlier, [Hugo themes](https://themes.gohugo.io/) will serve as the scaffold for our code. I'm using ["Researcher" by Olivier Roques](https://themes.gohugo.io/hugo-researcher/), but all of their free options are fantastic. One piece of advice when choosing your own theme: prioritize features, not aesthetics. Trying to add a searchbar with code is orders of magnitude harder than changing the theme color from red to blue. Know which features are mandatory for your site to function fluidly, and look for those in the site demos.
 
+Once you've found the perfect theme, it's time to move the code onto your desktop so that you can edit it. You do so by clicking "Download," which will take you to the Github repository of the theme's code. Fork it (copy it) over to a personal repository. Then, click on the green Download Code button to open the repository with Github Desktop. You can alter the Local Path to store the folder wherever you want on your computer. After you've cloned the repository, make sure you select that you're using the fork for your own purposes, and *not* to contribute to the parent repository! You definitely don't want to be making edits to the original theme. You should now be able to see the theme repository in your computer's file explorer. 
 
-Next is the fun part: choose your favorite theme from [Hugo](https://themes.gohugo.io/). I'm using ["Researcher" by Olivier Roques](https://themes.gohugo.io/hugo-researcher/), but all of their free options are fantastic. One piece of advice when choosing your own theme: prioritize features, not aesthetics. Coding in a searchbar is orders of magnitude harder than changing the theme color from red to blue. Know which features are mandatory for your site to function fluidly, and look for those in the site demos.
-
-### Acquiring the theme
-
-Once you've found the perfect theme, it's time to move the code onto your desktop so that you can edit it. You do so by clicking "Download," which will take you to the Github repository of the theme's code. Fork it (copy it) over to a personal repository. Then, click on the green Download Code button to open the repository with Github Desktop. You can alter the Local Path to store the folder wherever you want on your computer. After you've cloned the repository, make sure you select that you're using the fork for your own purposes, and *not* to contribute to the parent repository! You definitely don't want to be making edits to the original theme. You should now be able to see the theme repository in your computer's file explorer. You've acquired the theme! 
-
-### Deploying for the first time
+### Deploying the code
 
 To deploy your site, you'll need to first check in your theme repository to see if you have a "netlify.toml" file. You should see it as soon as you open the theme folder (i.e. it shouldn't be in any subfolder). If you don't have it, feel free to download the [netlify.toml](https://github.com/robinzng/robinzen/blob/master/netlify.toml) file that I have in my Git. Make sure to commit to master and push changes whenever you make changes within your theme folder so that your local version is synced with your online repository! 
 
@@ -60,20 +58,23 @@ Sign into Netlify and click on "New site from Git." Select your repository from 
 
 Your site should now be live! Click on the link that netlify provides (should be in the form of "https:// something - something - something .netlify.app") and you'll be able to see the unmodified theme. 
 
-### Editing the theme
+### Customizing your site
 
 Now that everything's been linked together, open your theme folder in Visual Studio Code to start personalizing it. 
 
-There's a lot of paths you can take from here, but I love a path of least resistance, so that's the path that I will teach you. 
-
-What I do is simply make edits to the "exampleSite" folder in the theme. The structure of the example site folder is usually pretty straightforward, so I won't go into too much detail. A few things you should be aware of, however:
+There's a lot of paths you can take from here, but I love a path of least resistance. So, rather than creating new code, we're simply going to edit the existing code in the "exampleSite" folder in your theme. The exact structure of the example site folder differs from theme to theme, so I encourage you to do some exploring on your own. However, a few constants that you should be aware of are: 
 
 * Directly inside the exampleSite folder (NOT in a subfolder) should be a config.toml file. This file tells Netlify what theme to apply to the website. This is also where you can edit the overall organization of your site (e.g. title, menus, headers and footers). 
+* The .scss scripts help determine the aesthetics of the site (e.g. colors, fonts, sizes). 
+* The static folder is where you store the images, sounds, and other documents that you reference on your site.
+* The layouts folder holds basic page structures (e.g. what does a 404 page vs. a blog post look like?)
 
-### Finalizing and publishing
+There's a lot more ins and outs of each individual theme, but these are the broad strokes. Mess around with the code, try to break things and then piece them back together, and pretty soon you'll have a super sexy custom website! 
 
-Once you've finalized your website and want the WORLD to see it, you can now buy a domain. I suggest [Google Domains](https://domains.google/) for pretty cheap names and the ability to easily connect to Netlify. The instructions for connecting Netlify to Google Domains can be found [here](https://medium.com/@jacobsowles/how-to-deploy-a-google-domains-site-to-netlify-c62793d8c95e). 
+### Publishing your site
 
+Once you've finalized your website and want the world to see it, you can FINALLY buy a domain. I suggest [Google Domains](https://domains.google/) for pretty cheap names and the ability to easily connect to Netlify. The instructions for connecting Netlify to Google Domains can be found [here](https://medium.com/@jacobsowles/how-to-deploy-a-google-domains-site-to-netlify-c62793d8c95e).
 
+And that's it! Share this page if you found this tutorial helpful and straightforward. Again, if you have any suggestions, please [let me know](mailto:robinzeng1@gmail.com). 
 
-
+With love and knowledge!! 
