@@ -52,7 +52,9 @@ Once you've found the perfect theme, it's time to move the code onto your deskto
 
 ### Deploying the code
 
-To deploy your site, you'll need to first check in your theme repository to see if you have a "netlify.toml" file. You should see it as soon as you open the theme folder (i.e. it shouldn't be in any subfolder). If you don't have it, feel free to download the [netlify.toml](https://github.com/robinzng/robinzen/blob/master/netlify.toml) file that I have in my Git. Make sure to commit to master and push changes whenever you make changes within your theme folder so that your local version is synced with your online repository! 
+To deploy your site, you'll need to first check in your theme repository to see if you have a "netlify.toml" file. You should see it as soon as you open the theme folder (i.e. it shouldn't be in any subfolder). If you don't have it, feel free to download the [netlify.toml](https://github.com/robinzng/robinzen/blob/master/netlify.toml) file that I have in my Git. 
+
+NB: Make sure to commit to master and push changes whenever you make changes within your theme folder so that your local version is synced with your online repository! 
 
 Sign into Netlify and click on "New site from Git." Select your repository from Github. On the "Build options, and deploy!" page, enter the build command as "hugo server". This is critical, as the build command is how Netlify is able to correctly execute your code. 
 
