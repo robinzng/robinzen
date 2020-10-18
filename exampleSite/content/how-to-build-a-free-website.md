@@ -5,13 +5,13 @@ Title = "Hello World and How I Got Here"
 
 If you're reading this, that means I've successfully set up my free personal website!
 
-In the process of creating my first website, I read a lot of online guides that basically made it seem like my only two options were
+In the process of creating my first website, I read a lot of online guides that basically made it seem like my only two options were:
 
-<ul>
-   1. Pay for a service to make a custom website for me, or
-   2. Suck it up and go with a straight out-of-the-box solution.
+1. Pay for a service to make a custom website for me, or
+
+2. Suck it up and go with a straight out-of-the-box solution.
       1. I also wasted a lot of time trying to hack out-of-the-box solutions to look the way I wanted them to, but this was inefficient and pretty buggy.
-</ul>
+
 
 Thankfully, my good friend [Afnan](https://www.afnan.io), who is a genius at this sort of thing, told me about Hugo Themes. And now I'm here to teach you! 
 
@@ -21,7 +21,8 @@ This blog post is a guide to free web dev for everybody, even total beginners. P
 ### How to build a free website (for total beginners)
 1. [A very high-level summary](/#a-very-high-level-summary)
 2. [What to use and why](/#what-to-use-and-why)
-3. [The straight-to-the-point clickthrough guide](hahahaha)
+3. [Laying the website foundation](/#laying_the_website_foundation)
+4. 
 
 ### A very high-level summary
 
@@ -38,13 +39,13 @@ To build the code, we'll be using [Hugo themes](https://themes.gohugo.io/) as a 
 
 For editing code, I recommend downloading [Visual Studio Code](https://code.visualstudio.com/), which makes code a lot more readable than Notepad or Github (both of which, to be fair, work). Not a necessity, but free and incredibly helpful.
 
-The repository I (and most people) use is [Github](https://github.com/). Not much to say there other than, it's good and it works. You should use it. I also recommend downloading the [desktop app](https://desktop.github.com/) for significant quality of life improvements. If you're new to the Git Desktop app, you can basically edit and save files locally on your computer, then commit and push the changes online whenever.
+To store the code, sign up for a [Github](https://github.com/) account. You should also download the [desktop app](https://desktop.github.com/) for significant quality of life improvements. If you're new to the Git Desktop app, you can basically edit and save files locally on your computer, then commit and push the changes online whenever.
 
-Finally, [Netlify](https://www.netlify.com/) is a solid deployer. It works seamlessly with Github, provides clear error messages that make debugging a breeze, and will easily link to whatever domain you do end up buying. Sign up with your Github account and you're good to go! 
+Finally, [Netlify](https://www.netlify.com/) is a solid deployer. It works seamlessly with Github, provides clear error messages that make debugging a breeze, and will easily link to whatever domain you do end up buying. Use your Github account to sign up and you're good to go! 
 
-### Setting everything up
+### Laying the website foundation
 
-First, you need to get your accounts and services set up. Sign up for a [Github](https://github.com/) account and use that to sign up for [Netlify](https://www.netlify.com/). Unless you like to suffer, you should also download [Visual Studio Code](https://code.visualstudio.com/) and the [Github desktop app](https://desktop.github.com/).
+
 
 Next is the fun part: choose your favorite theme from [Hugo](https://themes.gohugo.io/). I'm using ["Researcher" by Olivier Roques](https://themes.gohugo.io/hugo-researcher/), but all of their free options are fantastic. One piece of advice when choosing your own theme: prioritize features, not aesthetics. Coding in a searchbar is orders of magnitude harder than changing the theme color from red to blue. Know which features are mandatory for your site to function fluidly, and look for those in the site demos.
 
@@ -77,8 +78,3 @@ Once you've finalized your website and want the WORLD to see it, you can now buy
 
 
 
-<details>
-<summary><h2>The hackneyed blog post intro</h2></summary>
-<br>
-
-</details>
