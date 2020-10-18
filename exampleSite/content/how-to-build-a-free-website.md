@@ -8,7 +8,6 @@ If you're reading this, that means I've successfully set up my free personal web
 In the process of creating my first website, I read a lot of online guides that basically made it seem like my only two options were: 
 
 1. Pay for a service to make a custom website for me, or
-
 2. Suck it up and go with a straight out-of-the-box solution.
       1. I also wasted a lot of time trying to hack out-of-the-box solutions to look the way I wanted them to, but this was inefficient and pretty buggy.
 
