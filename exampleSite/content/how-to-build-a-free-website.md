@@ -18,12 +18,12 @@ This blog post is a guide to free web dev for everybody, even total beginners. P
 
 
 ### How to build a free website (for total beginners)
-1. [A very high-level summary](/#a-very-high-level-summary)
-2. [What to use and why](/#what-to-use-and-why)
-3. [The code skeleton](/#the_code_skeleton)
-4. [Deploying the code](/#deploying_the_code)
-5. [Customizing your site](/#customizing_your_site)
-6. [Publishing your site](/#publishing_your_site)
+1. [A very high-level summary](/how-to-build-a-free-website/#a-very-high-level-summary)
+2. [What to use and why](/how-to-build-a-free-website/#what-to-use-and-why)
+3. [The code skeleton](/how-to-build-a-free-website/#the_code_skeleton)
+4. [Deploying the code](/how-to-build-a-free-website/#deploying_the_code)
+5. [Customizing your site](/how-to-build-a-free-website/#customizing_your_site)
+6. [Publishing your site](/how-to-build-a-free-website/#publishing_your_site)
 
 ### A very high-level summary
 
