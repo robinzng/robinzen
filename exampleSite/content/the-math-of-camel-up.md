@@ -3,7 +3,7 @@ Title = "Long Live King Bing Bing Ding-a-Ling"
 +++
 ### The Greatest Board Game in the World?
 
-I still remember playing Camel Up for the very first time. I had never in my life experienced such emotional highs and lows before. Ever. I didn't know what True Joy or Sorrow was until that moment. Everything in the world ceased to exist during that first game, except those camels and the whirlwind of FEELING blowing up out of the cardboard. 
+I still remember playing Camel Up for the very first time. I had never in my life experienced such emotional highs and lows. Ever. I didn't know what True Joy or Sorrow was until that moment. Everything in the world ceased to exist during that first game, except those camels and the whirlwind of FEELING blowing up out of the cardboard. 
 
 That first game was immediately followed by a second, then a third, then a fourth. 
 
@@ -13,6 +13,6 @@ Camel Up is the greatest board game I've ever played in my life. It is fantastic
 
 ### The Premise
 
-Camel Up is a board game in which you gamble on simulated camel races. 
+Camel Up is a board game in which you bet on camel races. You can watch <a href="https://www.youtube.com/watch?v=hQftUMnLZd8" target="_blank">this video</a> to see how the first edition game is played; I'll also summarize the rules below. 
 
 ### Breaking Down the Mathematics of Camel Up
