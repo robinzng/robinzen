@@ -23,8 +23,8 @@ The current goal of my website (besides <a href="https://www.robinzen.com/resume
 ### Contact Me! 
 
 1. <a href="mailto:robinzeng1@gmail.com" target="_blank">Email</a>
-2. [LinkedIn](https://www.linkedin.com/in/robinzeng1/)
-3. [GitHub](https://github.com/robinzng)
+2. <a href="https://www.linkedin.com/in/robinzeng1/" target="_blank">LinkedIn</a>
+3. <a href="https://github.com/robinzng" target="_blank">GitHub</a>
 4. [Youtube](#)
 <!-- 
 useful code snippets
