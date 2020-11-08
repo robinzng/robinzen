@@ -11,7 +11,7 @@ Hello! I'm Robin, a data scientist currently located in Philly. I graduated from
 
 ### About My Website
 
-The current goal of my website (besides <a href="https://www.robinzen.com/resume" target="_blank">blatant self-promotion</a> is to spread knowledge. I'll be sharing projects I'm working on and step-by-step guides meant for anybody to be able to follow. The projects will range from the <a href="https://www.robinzen.com/how-to-build-a-free-website" target="_blank">very creation of this website</a> to <a href="https://www.robinzen.com/the-math-of-camel-up" target="_blank">math papers on board game strategies</a>. As I continue to build out this site, I might have a better focus for the projects I share, but for now, I hope you enjoy the eclecticism! 
+The current goal of my website (besides <a href="https://www.robinzen.com/resume" target="_blank">blatant self-promotion</a>) is to spread knowledge. I'll be sharing projects I'm working on and step-by-step guides meant for anybody to be able to follow. The projects will range from the <a href="https://www.robinzen.com/how-to-build-a-free-website" target="_blank">very creation of this website</a> to <a href="https://www.robinzen.com/the-math-of-camel-up" target="_blank">math papers on board game strategies</a>. As I continue to build out this site, I might have a better focus for the projects I share, but for now, I hope you enjoy the eclecticism! 
 
 
 ### My Other Projects

@@ -13,6 +13,13 @@ Camel Up is the greatest board game I've ever played in my life. It is fantastic
 
 ### The Premise
 
-Camel Up is a board game in which you bet on camel races. You can watch <a href="https://www.youtube.com/watch?v=hQftUMnLZd8" target="_blank">this video</a> to see how the first edition game is played; I'll also summarize the rules below. 
+Camel Up is a board game in which you bet on camel races. You can watch <a href="https://www.youtube.com/watch?v=hQftUMnLZd8" target="_blank">this video</a> to see how the first edition game is played.
+
+For this investigation, I'll start by breaking the game rules down into several layers of complexity. Starting from the simplest rule combinations, I'll analyze how to predict leg winners, and overall winners/losers before adding a rule and iterating. Let's get started! 
 
 ### Breaking Down the Mathematics of Camel Up
+1. [Just camels, and dice](/the-math-of-camel-up/#rolling-the-dice)
+2. [Gambling](/the-math-of-camel-up/#rolling-the-dice)
+3. [The oasis tiles](/the-math-of-camel-up/#rolling-the-dice)
+4. [Leg Winners](/the-math-of-camel-up/#rolling-the-dice)
+
