@@ -6,7 +6,7 @@ title = "Robin Zeng"
 
 ### About Me
 
-Hello! I'm Robin, a data scientist currently located in Philly. I graduated from Dartmouth College in June 2019 with a degree in Mathematics. I love community building, adventure cycling, and hand-drawing animations. 
+Hello! I'm Robin, a data scientist currently located in Philly. I graduated from Dartmouth College in June 2019 with a degree in Mathematics. I love community building, adventure cycling, and <a href="https://www.robinzen.com/animations" target="_blank">hand-drawing animations</a>. 
 
 
 ### About My Website
