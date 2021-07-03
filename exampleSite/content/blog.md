@@ -7,3 +7,5 @@ title = "Blog"
 [On Racial Triangulation and Asian America](/triangulating-asian-americans)
 
 [A Few of My Hand-Drawn Animations](/animations)
+
+[Data Management and Visualization Project](/data-mgt-viz)
