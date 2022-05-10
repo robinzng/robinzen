@@ -8,4 +8,4 @@ title = "Blog"
 
 [A Few of My Hand-Drawn Animations](/animations)
 
-[Data Management and Visualization Project](/data-mgt-viz)
+<!-- [Data Management and Visualization Project](/data-mgt-viz) -->
