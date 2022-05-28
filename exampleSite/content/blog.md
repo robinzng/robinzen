@@ -8,6 +8,6 @@ title = "Blog"
 
 [A Few of My Hand-Drawn Animations](/animations)
 
-[Housing Prices in Washington, D.C.](/dc-housing-prices)
+<!-- [Housing Prices in Washington, D.C.](/dc-housing-prices) -->
 
 <!-- [Data Management and Visualization Project](/data-mgt-viz) -->
