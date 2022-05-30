@@ -18,5 +18,8 @@ Robin
 
 
 <embed src="dc_housing_map.gif" width="500px" height="500px" />
+<embed src="dc_housing_median.png"/>
+
+
 
 
