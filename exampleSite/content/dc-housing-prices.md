@@ -18,7 +18,7 @@ Robin
 
 
 <embed src="dc_housing_map.gif" width="500px" height="500px" />
-<embed src="dc_housing_median.png"/>
+<embed src="dc_housing_median.png" width="500px" height="400px" />
 
 
 
