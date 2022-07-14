@@ -8,6 +8,9 @@ title = "Blog"
 
 [Housing Prices in Washington, D.C.](/dc-housing-prices)
 
+[Learning How to Design Logos](/logo-design)
+
 [A Few of My Hand-Drawn Animations](/animations)
+
 
 <!-- [Data Management and Visualization Project](/data-mgt-viz) -->
