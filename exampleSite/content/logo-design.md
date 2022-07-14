@@ -21,7 +21,7 @@ But the winner was... a little chair :>
 #### Things I love about this little chair: 
 * Look how cute it is! 
 * It's also very minimalist and clean, which is exactly in line with Afnan's aesthetic
-  * This required a bit of back and forth, since minimalism is not my go-to 
+    * This required a bit of back and forth, since minimalism is not my go-to 
 * It's shaped like a d, for Diffsitter
 * The red and green symbolize unresolved and resolved diffs
 * SO FRIKKEN CUTE (╯°□°）╯︵ ┻━┻
