@@ -2,7 +2,7 @@
 Title = "I designed a logo!"
 Date = 2022-07-13
 +++
-### I designed a logo (AKA hire me for all your logo needs!)
+# I designed a logo (AKA hire me for all your graphic design needs!)
 
 #### Ambling preamble
 My good buddy <a href="https://www.afnan.io" target="_blank">Afnan</a> created this badass tool called <a href="https://github.com/afnanenayet/diffsitter" target="_blank">Diffsitter</a> that creates more helpful diffs. He also wanted us to learn how to make vector graphics together so we could create a logo for Diffsitter. 
