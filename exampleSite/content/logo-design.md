@@ -18,6 +18,8 @@ From there, I drew and redrew different logos that incorporated these concepts. 
 
 But the winner was... a little chair :> 
 
+<embed src="diffsitter_final.svg" width="500px" height="500px" />
+
 #### Things I love about this little chair: 
 * Look how cute it is! 
 * It's also very minimalist and clean, which is exactly in line with Afnan's aesthetic (this required a bit of back and forth, since minimalism is not my go-to)
