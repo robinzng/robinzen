@@ -18,7 +18,7 @@ From there, I drew and redrew different logos that incorporated these concepts. 
 
 But the winner was... a little chair :> 
 
-<embed src="diffsitter_final.svg" width="500px" height="500px" />
+<embed src="diffsitter_final.svg" width="100px" height="100px" />
 
 #### Things I love about this little chair: 
 * Look how cute it is! 
