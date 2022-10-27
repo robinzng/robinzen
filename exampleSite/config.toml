@@ -6,7 +6,7 @@ enableEmoji = true
 
 [params]
   author = "Robin Zeng"
-  description = "Data-driven, mission-driven, "
+  description = "Almost too quick of a learner"
   favicon = "favicon.jpg"
   [params.footer]
     text = "Email me"

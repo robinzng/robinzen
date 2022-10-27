@@ -18,7 +18,7 @@ The current goal of my website (besides <a href="https://www.robinzen.com/resume
 
 * Co-authored <a href="https://journals.calstate.edu/pump/article/view/1920/2044" target="_blank">*Diplomatic Dynamics of International Treaty Negotiations*</a>, an epidemiological approach to multi-party negotiations
 * Co-founded <a href="https://www.whereimreallyfrom.com" target="_blank">Where I'm Really From</a>, an online archive of Asian-American narratives
-* Co-hosts <a href="https://open.spotify.com/show/2VnJjutE1eQ2aTnccDaAPy" target="_blank">Asian American Brainstorm</a>, a podcast dedicated to telling the story of major Asian American figures.
+* Co-hosted <a href="https://open.spotify.com/show/2VnJjutE1eQ2aTnccDaAPy" target="_blank">Asian American Brainstorm</a>, a podcast dedicated to telling the story of major Asian American figures.
 
 
 ### Contact Me! 
