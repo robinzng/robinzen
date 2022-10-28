@@ -4,7 +4,11 @@ Date = 2022-10-27
 +++
 
 <style type="text/css" rel="stylesheet"> 
-* { background-color: red !important; }
+* #content .container {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    max-width: 100% !important;
+}
 </style>
 
 Let's build a Halloween costume around your current wardrobe! 
