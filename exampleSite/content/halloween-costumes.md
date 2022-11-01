@@ -4,11 +4,14 @@ Date = 2022-10-27
 +++
 
 <style type="text/css" rel="stylesheet"> 
+* body {
+    background-color: black !important;
+    color: white !important;
+}
 * #content .container {
     margin-left: 0px !important;
     margin-right: 0px !important;
     max-width: 100% !important;
-    background-color: black;
 }
 </style>
 
