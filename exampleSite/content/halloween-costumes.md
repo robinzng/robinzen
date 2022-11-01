@@ -8,6 +8,7 @@ Date = 2022-10-27
     margin-left: 0px !important;
     margin-right: 0px !important;
     max-width: 100% !important;
+    background-color: black;
 }
 </style>
 
