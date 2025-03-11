@@ -158,3 +158,112 @@ fn fair_dice_roll() -> i32 {
     }
 }
 ```
+
+### Field access + method calling
+
+dots are used to access fields of a value or call a method on a value
+
+```rust
+let a = (10, 20);
+a.0; //this is 10
+
+let b = "booyah";
+b.len(); //this is 6
+```
+
+### Modules and use syntax? 
+
+double colons access fields in namespaces
+
+```rust
+let least = std::cmp::min(3, 8); //this is 3
+//std is a crate/library, cmp is a module/source file, min is a function
+```
+
+"use" directives can bring in names from other namespaces
+
+```rust
+use std::cmp::min;
+let least = min(7, 1); //this is 1
+```
+
+within "use" directives, curly brackets are "globs" (wtf)
+
+```rust
+use std::cmp::min;
+use std::cmp::max;
+//is the same as 
+use std::cmp::{min, max};
+//is the same as 
+use std::{cmp::min, cmp::max};
+```
+
+use a wildcard to import every symbol from a namespace
+
+```rust
+use std::cmp::*;
+```
+
+types are also namespaces 
+
+```rust
+let x = "booyah".len(); //this is 6
+let x = str::len("booyah"); //this is also 6
+```
+
+many types are in scope by default because rust inserts this at the beginning of every module
+
+```rust
+use std::prelude::v1::*;
+```
+which is why
+
+```rust
+let v = Vec::new();
+//is the same as getting the full path
+let v = std::vec::Vec::new();
+```
+
+Structs ? what are structs? 
+
+```rust
+struct Vec2 {
+    x: f64, //64-bit float 
+    y: f64,
+}
+```
+
+structs are initialized by struct literals
+
+```rust
+let v1 = Vec2 { x: 1.0, y: 3.0 };
+let v2 = Vec2 { y: 2.0, x: 4.0 };
+```
+
+shortcut for initializing fields from another struct
+can only happen in the last position
+cannot be followed by a comma 
+
+```rust
+let v3 = Vec2 { 
+    x: 14.0, 
+    ..v2
+};
+```
+
+destructuring structs 
+
+```rust
+let v = Vec2 { x: 3.0, y: 6.0 };
+let Vec2 { a, b } = v;
+//a is 3.0, b is 6.0
+```
+
+throw away v.y:
+
+```rust
+let Vec2 { x, .. } = v;
+```
+
+### Patterns and Destructuring
+
