@@ -100,10 +100,9 @@ let x = vec![1, 2, 3, 4, 5]
 fn declares a function
 
 ```rust
-fn fair_dice_roll() -> i32 {
-    4
-    println!("booyah");
-} //arrow indicates its return type
+fn fair_dice_roll() -> i32 {//arrow indicates its return type
+    4 //omitting the semicolon is equivalent to returning
+} 
 ```
 
 ### Block
@@ -133,4 +132,29 @@ let x = {
     let z = 2;
     y + z //evaluation
 }; 
+```
+
+if conditions are expressions
+
+```rust
+fn fair_dice_roll() -> i32 {
+    if feeling_lucky {
+        6
+    } else {
+        4
+    }
+}
+```
+
+match is also an expression
+??? what is a match
+??? what are the columns for? 
+
+```rust 
+fn fair_dice_roll() -> i32 {
+    match feeling_lucky {
+        true => 6,
+        false => 4, 
+    }
+}
 ```
